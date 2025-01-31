@@ -7,7 +7,7 @@ function App() {
       {/* Header Section */}
       <header className="container mx-auto px-4 py-16 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          Hi <span className="inline-block animate-wave">👋</span>, I'm Chaima Abaoub
+          Hi <span className="inline-block animate-wave">👋</span>, I'm Yessin Khlif
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
           A passionate and collaborative software engineer student learning DevOps practices.
@@ -19,7 +19,7 @@ function App() {
         <div className="bg-gray-800/50 rounded-lg p-6 max-w-3xl mx-auto space-y-4">
           <div className="flex items-center space-x-3">
             <span className="text-xl">🏃</span>
-            <p className="text-lg">I'm currently working on <span className="text-blue-400">Project Web development</span>.</p>
+            <p className="text-lg">I'm currently working on <span className="text-blue-400">DevOps Project</span>.</p>
           </div>
           <div className="flex items-center space-x-3">
             <span className="text-xl">🌱</span>
@@ -27,11 +27,11 @@ function App() {
           </div>
           <div className="flex items-center space-x-3">
             <span className="text-xl">💝</span>
-            <p className="text-lg">I'm looking for an internship in <span className="text-purple-400">DevOps or Web development</span>.</p>
+            <p className="text-lg">I'm looking for an internship in <span className="text-purple-400">DevOps or Blockchain Technology</span>.</p>
           </div>
           <div className="flex items-center space-x-3">
             <span className="text-xl">📫</span>
-            <p className="text-lg">How to reach me: <a href="mailto:khlifyessin@gmail.com" className="text-blue-400 hover:underline">chaimaabaoub09@gmail.com</a></p>
+            <p className="text-lg">How to reach me: <a href="mailto:khlifyessin@gmail.com" className="text-blue-400 hover:underline">khlifyessin@gmail.com</a></p>
           </div>
         </div>
       </section>
@@ -53,16 +53,16 @@ function App() {
       <section className="container mx-auto px-4 py-8">
         <h2 className="text-3xl font-bold text-center mb-8">Connect with me</h2>
         <div className="flex justify-center space-x-6">
-          <a href="https://github.com/chaima810" className="text-gray-300 hover:text-white transition-colors">
+          <a href="https://github.com/yessin007" className="text-gray-300 hover:text-white transition-colors">
             <Github size={32} />
           </a>
-          <a href="https://www.linkedin.com/in/abaoub-chaima" className="text-gray-300 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/yessin-khlif" className="text-gray-300 hover:text-white transition-colors">
             <Linkedin size={32} />
           </a>
-          <a href="https://www.instagram.com/chaimaabaoub20/" className="text-gray-300 hover:text-white transition-colors">
+          <a href="https://www.instagram.com/yessinkhlif" className="text-gray-300 hover:text-white transition-colors">
             <Instagram size={32} />
           </a>
-          <a href="mailto: chaimaabaoub09@gmail.com" className="text-gray-300 hover:text-white transition-colors">
+          <a href="mailto:khlifyessin@gmail.com" className="text-gray-300 hover:text-white transition-colors">
             <Mail size={32} />
           </a>
         </div>
@@ -73,7 +73,7 @@ function App() {
 
 const technologies = [
   { name: 'Angular', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg' },
- 
+  { name: 'AWS', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg' },
   { name: 'Azure', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg' },
   { name: 'Bootstrap', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg' },
   { name: 'C#', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg' },
@@ -82,11 +82,9 @@ const technologies = [
   { name: '.NET', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg' },
   { name: 'GCP', icon: 'https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg' },
   { name: 'NestJS', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg' },
- 
   { name: 'HTML', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg' },
   { name: 'Java', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg' },
   { name: 'JavaScript', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' },
- 
   { name: 'Linux', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg' },
   { name: 'MongoDB', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg' }
 ];
